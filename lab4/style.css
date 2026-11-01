@@ -1,0 +1,36 @@
+body {
+    background: white;
+    color: black;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+input {
+    padding: 5px;
+}
+
+button {
+    padding: 5px 10px;
+}
+
+li {
+    margin: 8px 0;
+    text-align: left;
+}
+
+ul {
+    display: block;
+    width: 250px;
+    margin: 16px auto 0;
+    padding-left: 0;
+    list-style-position: inside;
+    text-align: left;
+}
+
+li input {
+    margin-right: 8px;
+}
+
+li input:checked + span {
+    text-decoration: line-through;
+}
